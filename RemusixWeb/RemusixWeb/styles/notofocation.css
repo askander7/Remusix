@@ -1,0 +1,22 @@
+.noty{
+    background-color: #fff;
+    padding: 8px 0px 8px 0px;
+}
+.activnoty{
+    background-color: #B39BAA;
+    padding: 5px 5px 5px 5px;
+}
+.cspan{
+    background-color: #fff;
+    font-size: smaller;
+    color: #9C005C;
+}
+.htitle{
+    display: inline;
+}
+
+
+.search{
+  border-radius: 100rem;
+  margin: auto;
+}

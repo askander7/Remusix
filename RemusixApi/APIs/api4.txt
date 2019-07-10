@@ -1,0 +1,89 @@
+1)
+method:
+IEnumerable<CustomNotification> GetNotifications()
+
+http method:
+get
+
+usl:
+https://remusixapi.conveyor.cloud/api/Posts/GetNotifications
+
+return:
+[{"UserID":1,"nUserID":2,"PostID":5,"Action":"like","ActionTime":"2019-06-22T16:23:26.3","Status":"unseen"}]
+____________________________________________________________________
+2)
+method:
+IHttpActionResult AddArtist(Artist artist)
+
+http method:
+post
+
+url:
+https://remusixapi.conveyor.cloud/api/Artists/AddArtist
+
+request body:
+{"ArtistName":"adham","ArtistPhoto":"NULL"}
+
+return:
+5 for example
+
+______________________________________________________________________
+3)
+method:
+IHttpActionResult AddSong(Song song)
+
+http method:
+post
+
+url:
+https://remusixapi.conveyor.cloud/api/Songs/AddSong
+
+request body:
+{"SongName":"be3dt leh","SongLink":"NULL","ArtistID":2}
+
+return:
+Ok("added") or BadRequest("invalid song")
+
+_________________________________________________________________________
+
+4)
+method:
+CustomPost GetPost(int s_postid)
+
+http method:
+get
+
+url:
+https://remusixapi.conveyor.cloud/api/Posts/GetPost?s_postid=1
+
+return:
+{"PostID":1,"SongName":"song1","ArtistName":"mounir","ArtistPhoto":null,"UserName":"ahmed mohamed","Photo":null,"PostTime":"2019-06-17T18:09:10.46"}
+_________________________________________________________________________
+
+5)
+method:
+int LikesNum(int s_postid)
+
+http method:
+get
+
+url:
+https://remusixapi.conveyor.cloud/api/Posts/LikesNum?s_postid=1
+
+return:
+1
+_________________________________________________________________________
+
+6)
+method:
+int CommentsNum(int s_postid)
+
+http method:
+get
+
+url:
+https://remusixapi.conveyor.cloud/api/Posts/CommentsNum?s_postid=1
+
+return:
+2
+_________________________________________________________________________

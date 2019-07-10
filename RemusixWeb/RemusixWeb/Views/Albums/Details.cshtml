@@ -1,0 +1,66 @@
+﻿@model RemusixWeb.Models.Album
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Album</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.AlbumName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AlbumName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.YearOfProduction)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.YearOfProduction)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Plays)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Plays)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Rating)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Rating)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AlbumDescription)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AlbumDescription)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Artist.ArtistName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Artist.ArtistName)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.AlbumID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

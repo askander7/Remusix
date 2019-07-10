@@ -1,0 +1,109 @@
+method for getting followers of an user
+method for getting who the user is follow
+method for follow a user 
+method for unfollow a user
+method for check friendship
+____________________________________________________________________________
+
+					response
+					~~~~~~~~~
+
+1)
+method:
+IEnumerable<CustomUser> Followers(string s_username)
+
+http method:
+get
+
+url:
+https://remusixapi.conveyor.cloud/api/Users/Followers?s_username=ahmed_mohamed
+
+return:
+[{"UserID":2,"UserName":"abdelrahman mohamed","FirstName":"body7","LastName":"mohamed","Email":"body@remusix.com","UserPassword":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMTEifQ.uIPtkEwqIAXXa51lF4VJaDGjg0paXHJTIb2_ldGUg4s","Photo":"2.jpg","Gender":"m","FacebookUsername":null,"GoogleUsername":null,"SoundcloudUsername":null,"Birthdate":null,"Longitude":-77.0364,"Latitude":38.8951,"Status":"active","Location":null},
+{"UserID":3,"UserName":"ahmed selim","FirstName":"no name","LastName":"no name","Email":"selim@remusix.com","UserPassword":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMTEifQ.uIPtkEwqIAXXa51lF4VJaDGjg0paXHJTIb2_ldGUg4s","Photo":"3.png","Gender":null,"FacebookUsername":null,"GoogleUsername":null,"SoundcloudUsername":null,"Birthdate":null,"Longitude":-72.0364,"Latitude":34.8951,"Status":null,"Location":null}]
+
+_________________________________________________________________________________
+
+2)
+method:
+IEnumerable<CustomUser> Followings(string s_username)
+
+http method:
+get
+
+url:
+https://remusixapi.conveyor.cloud/api/Users/Followings?s_username=ahmed_mohamed
+
+return:
+[{"UserID":2,"UserName":"abdelrahman mohamed","FirstName":"body7","LastName":"mohamed","Email":"body@remusix.com","UserPassword":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMTEifQ.uIPtkEwqIAXXa51lF4VJaDGjg0paXHJTIb2_ldGUg4s","Photo":"2.jpg","Gender":"m","FacebookUsername":null,"GoogleUsername":null,"SoundcloudUsername":null,"Birthdate":null,"Longitude":-77.0364,"Latitude":38.8951,"Status":"active","Location":null}]
+
+_________________________________________________________________________________
+
+3)
+method:
+IHttpActionResult Follow(Friend friend)
+
+http method:
+post
+
+url:
+https://remusixapi.conveyor.cloud/api/Users/Follow
+
+return:
+Ok("followed!") (if the follow done) or
+ Badrequest("invalid type") if(the type not match db table friends) or 
+Badrequest("already friend") (if they exist in table friends)
+
+request body:
+{"UserID":1,"FriendID":2}
+__________________________________________________________________________________
+
+4)
+method:
+IHttpActionResult UnFollow(Friend friend)
+
+http method:
+post
+
+url:
+https://remusixapi.conveyor.cloud/api/Users/UnFollow
+
+return:
+Ok("unfollowed!") (if the follow done) or
+ Badrequest("invalid type") if(the type not match db table friends) or
+Badrequest("not friend") (if they aren't exist in table friends)
+
+
+request body:
+{"UserID":1,"FriendID":2}
+__________________________________________________________________________________
+
+5)
+method:
+IHttpActionResult ChangeUser(User user)
+
+http method:
+post
+
+url:
+https://remusixapi.conveyor.cloud/api/Users/ChangeUser
+
+return:
+Ok("updated!"); or BadRequest("invalid user!");
+
+request body:
+{"UserID":1,"UserName":"ahmed mohamed","FirstName":"ahmed","LastName":"mohamed","Email":"ahmed@remusix.com","UserPassword":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMTEifQ.uIPtkEwqIAXXa51lF4VJaDGjg0paXHJTIb2_ldGUg4s","Photo":null,"Gender":"m","FacebookUsername":null,"GoogleUsername":null,"SoundcloudUsername":null,"Birthdate":"1997-01-01T00:00:00","Longitude":-77.0364,"Latitude":38.8951,"Status":"active","Location":"egypt/alex"}
+_________________________________________________________________________________
+
+5)
+method:
+ bool IsFriend(int s_userid,int s_friendid)
+
+http method:
+get
+
+url:
+https://remusixapi.conveyor.cloud/api/Users/IsFriend?s_userid=1&s_friendid=3
+
+return:
+true (if friend) false (if not)

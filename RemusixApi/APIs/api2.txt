@@ -1,0 +1,64 @@
+check if user exist
+
+method:
+get
+
+url:
+https://remusixapi.conveyor.cloud/api/Users/IsUser?s_email=ahmed@remusix.com
+
+return:
+boolean
+___________________________________________________________
+login
+
+method:
+get
+
+url:
+https://remusixapi.conveyor.cloud/api/Users/Login?s_email=ahmed@remusix.com&s_password=123
+
+return:
+{"UserID":1,"UserName":"ahmed mohamed","FirstName":"ahmed","LastName":"mohamed","Email":"ahmed@remusix.com","UserPassword":"123","Photo":null,"Background":null,"Gender":"m","FacebookUsername":null,"GoogleUsername":null,"SoundcloudUsername":null,"Birthdate":null}
+
+_________________________________________________________________________________________________________
+
+                                         location
+                                         ========
+
+-update user's location by username
+
+-method:
+put
+
+return:
+boolean
+
+url:
+https://remusixapi.conveyor.cloud/api/Users/UpdateLocation?s_username=ahmed_mohamed&s_longitude=8&s_latitude=9
+
+
+------------------------------------------------
+
+-return user's location by username
+
+-method:
+get
+
+-return:
+double[]
+
+-url:
+https://remusixapi.conveyor.cloud/api/Users/UserLocation?s_username=ahmed_mohamed
+
+----------------------------------------------
+
+-return nearby users
+
+-method:
+get
+
+-return:
+users
+
+-url:
+https://remusixapi.conveyor.cloud/api/Users/NearbyUsers?s_username=ahmed_mohamed&s_longitude=5&s_latitude=5

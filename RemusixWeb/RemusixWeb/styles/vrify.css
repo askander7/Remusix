@@ -1,0 +1,101 @@
+/* Variables
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+:root {
+	--primary-c: #2196F3;
+	--secondary-c: #B2D7F5;
+	
+	--white: #FDFBFB;
+	
+	--text: #082943;	
+	--bg: var(--primary-c);
+}
+
+
+
+ul {
+	list-style-type: none;
+	padding-left: 50px;
+	margin: 0;
+}
+
+li {
+	display: block;
+	position: relative;
+	padding: 20px 0px;
+}
+
+h2 {
+	margin: 10px 0;
+	font-weight: 900;
+}
+
+
+/* Card
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.card {
+	display: flex;
+	flex-direction: column;	
+	background: var(--white);
+	width:700px;
+	margin:0 auto;
+	padding: 20px 25px;
+	border-radius: 20px;
+	box-shadow: 0 19px 38px rgba(0, 0, 0, 0.13);
+	right: 0;
+	left: 0;
+}
+
+
+/* Radio Button
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.form-radio
+{
+     -webkit-appearance: none;
+     -moz-appearance: none;
+     appearance: none;
+     display: inline-block;
+     position: relative;
+     background-color: #f1f1f1;
+     color: #666;
+     top: 10px;
+     height: 30px;
+     width: 30px;
+     border: 0;
+     border-radius: 50px;
+     cursor: pointer;     
+     margin-right: 7px;
+     outline: none;
+}
+.form-radio:checked::before
+{
+     position: absolute;
+     font: 13px/1 'Open Sans', sans-serif;
+     left: 11px;
+     top: 7px;
+     content: '\02143';
+     transform: rotate(40deg);
+}
+.form-radio:hover
+{
+     background-color: #f7f7f7;
+}
+.form-radio:checked
+{
+     background-color: #f1f1f1;
+}
+label
+{
+     font: 15px/1.7 'Open Sans', sans-serif;
+     color: #333;
+     -webkit-font-smoothing: antialiased;
+     -moz-osx-font-smoothing: grayscale;
+     cursor: pointer;
+}
+
+.card1{
+	color: #9C005C;
+}
+
+.ulstyle1{
+	padding-left: 10px;
+}

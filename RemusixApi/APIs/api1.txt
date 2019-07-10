@@ -1,0 +1,113 @@
+                                              request
+					     ~~~~~~~~~
+1) Most played Songs -> done
+2) Most Rated -> done
+3) all users -> done
+4) User likes -> done
+5) User posts -> done
+6) User Following -> done
+7) user Notifications (explain,please)
+
+/___________________________________________________________________________________________________________/
+
+						response
+						~~~~~~~~
+1) Most played Songs
+
+-method : get
+
+-url : https://remusixapi.conveyor.cloud/api/Songs/MostPlayedSong
+
+-return :
+[{"SongID":4,"SongName":"song2","YearOfProduction":null,"GenreName":"romantic","Plays":9001,"Rating":9,"SongDescription":null,"AlbumName":"new tamer","ArtistName":"mohamed mounir"},
+{"SongID":6,"SongName":"song2","YearOfProduction":null,"GenreName":"sad","Plays":1270,"Rating":8,"SongDescription":null,"AlbumName":"new mounir","ArtistName":"tamer hosny"},
+{"SongID":3,"SongName":"song1","YearOfProduction":null,"GenreName":"sad","Plays":1200,"Rating":10,"SongDescription":null,"AlbumName":"new tamer","ArtistName":"mohamed mounir"},
+{"SongID":2,"SongName":"song2","YearOfProduction":null,"GenreName":"sad","Plays":1100,"Rating":9,"SongDescription":null,"AlbumName":"new amr","ArtistName":"amr diab"},
+{"SongID":5,"SongName":"song1","YearOfProduction":null,"GenreName":"romantic","Plays":1060,"Rating":9,"SongDescription":null,"AlbumName":"new mounir","ArtistName":"tamer hosny"},
+{"SongID":1,"SongName":"song1","YearOfProduction":null,"GenreName":"romantic","Plays":1000,"Rating":10,"SongDescription":null,"AlbumName":"new amr","ArtistName":"amr diab"}]
+_________________________________________________________________
+
+2) Most Rated
+
+-method : get
+
+-url : https://remusixapi.conveyor.cloud/api/Songs/MostRatedSong
+
+-return : 
+[{"SongID":3,"SongName":"song1","YearOfProduction":null,"GenreName":"sad","Plays":1200,"Rating":10,"SongDescription":null,"AlbumName":"new tamer","ArtistName":"mohamed mounir"},
+{"SongID":1,"SongName":"song1","YearOfProduction":null,"GenreName":"romantic","Plays":1000,"Rating":10,"SongDescription":null,"AlbumName":"new amr","ArtistName":"amr diab"},
+{"SongID":2,"SongName":"song2","YearOfProduction":null,"GenreName":"sad","Plays":1100,"Rating":9,"SongDescription":null,"AlbumName":"new amr","ArtistName":"amr diab"},
+{"SongID":4,"SongName":"song2","YearOfProduction":null,"GenreName":"romantic","Plays":9001,"Rating":9,"SongDescription":null,"AlbumName":"new tamer","ArtistName":"mohamed mounir"},
+{"SongID":5,"SongName":"song1","YearOfProduction":null,"GenreName":"romantic","Plays":1060,"Rating":9,"SongDescription":null,"AlbumName":"new mounir","ArtistName":"tamer hosny"},
+{"SongID":6,"SongName":"song2","YearOfProduction":null,"GenreName":"sad","Plays":1270,"Rating":8,"SongDescription":null,"AlbumName":"new mounir","ArtistName":"tamer hosny"}]
+
+_______________________________________________________________________
+
+3) all users
+
+-method : get
+
+-url : https://remusixapi.conveyor.cloud/api/Users/AllUsers
+
+-return : 
+[{"UserID":1,"UserName":"ahmed mohamed","FirstName":"ahmed","LastName":"mohamed","Email":"ahmed@remusix.com","UserPassword":"123","Photo":null,"Background":null,"Gender":"m","FacebookUsername":null,"GoogleUsername":null,"SoundcloudUsername":null,"Birthdate":null},
+{"UserID":2,"UserName":"ali sabry","FirstName":"ali","LastName":"sabry","Email":"ali@remusix.com","UserPassword":"123","Photo":null,"Background":null,"Gender":"m","FacebookUsername":null,"GoogleUsername":null,"SoundcloudUsername":null,"Birthdate":null},
+{"UserID":3,"UserName":"reham fathi","FirstName":"reham","LastName":"fathi","Email":"reham@remusix.com","UserPassword":"123","Photo":null,"Background":null,"Gender":"f","FacebookUsername":null,"GoogleUsername":null,"SoundcloudUsername":null,"Birthdate":null}]
+
+--------------------------------------------------------
+- one user
+
+-method : get
+
+-url : https://remusixapi.conveyor.cloud/api/Users/GetUser?s_userid=1
+
+-return : 
+{"UserID":1,"UserName":"ahmed mohamed","FirstName":"ahmed","LastName":"mohamed","Email":"ahmed@remusix.com","UserPassword":"123","Photo":null,"Background":null,"Gender":"m","FacebookUsername":null,"GoogleUsername":null,"SoundcloudUsername":null,"Birthdate":null}
+_______________________________________________________________________________
+
+4) User likes
+
+-method : get
+
+-url : https://remusixapi.conveyor.cloud/api/Users/UserLikePosts?s_userid=1
+
+-return : 
+[{"PostID":2,"PostContent":"listen to mounir ayoun","PostTime":"2019-05-18T18:08:45.34","UserID":1}]
+
+_________________________________________________________________________________
+
+5) User posts
+
+-method : get
+
+-url : https://remusixapi.conveyor.cloud/api/Users/UserPosts?s_userid=1
+
+-return : 
+[{"PostID":1,"PostContent":"listen to amr diab haded","PostTime":"2019-05-18T18:08:02.457","UserID":1},
+{"PostID":2,"PostContent":"listen to mounir ayoun","PostTime":"2019-05-18T18:08:45.34","UserID":1}]
+
+_____________________________________________________________________________
+
+6) user follow (user/artist)
+
+a) User's Friends
+
+-method : get
+
+-url : https://remusixapi.conveyor.cloud/api/Users/UserFriends?s_userid=1
+
+-return : 
+[{"UserID":2,"UserName":"ali sabry","FirstName":"ali","LastName":"sabry","Email":"ali@remusix.com","UserPassword":"123","Photo":null,"Background":null,"Gender":"m","FacebookUsername":null,"GoogleUsername":null,"SoundcloudUsername":null,"Birthdate":null},
+{"UserID":3,"UserName":"reham fathi","FirstName":"reham","LastName":"fathi","Email":"reham@remusix.com","UserPassword":"123","Photo":null,"Background":null,"Gender":"f","FacebookUsername":null,"GoogleUsername":null,"SoundcloudUsername":null,"Birthdate":null}]
+
+-----------------------------------
+
+a) User's Artists
+
+-method : get
+
+-url : https://remusixapi.conveyor.cloud/api/Users/UserArtists?s_userid=1
+
+-return : 
+[{"ArtistID":1,"ArtistName":"amr diab","ArtistBirthDate":null,"ArtistRating":10,"ArtistPhoto":null},
+{"ArtistID":2,"ArtistName":"mohamed mounir","ArtistBirthDate":null,"ArtistRating":10,"ArtistPhoto":null},{"ArtistID":3,"ArtistName":"tamer hosny","ArtistBirthDate":null,"ArtistRating":9,"ArtistPhoto":null}]

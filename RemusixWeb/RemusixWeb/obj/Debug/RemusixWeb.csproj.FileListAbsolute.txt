@@ -1,0 +1,706 @@
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\RemusixWeb.dll.config
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\RemusixWeb.dll
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\RemusixWeb.pdb
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\roslyn\csc.exe
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\roslyn\csc.exe.config
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\roslyn\csc.rsp
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\roslyn\csi.exe
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\roslyn\csi.exe.config
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\roslyn\csi.rsp
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\roslyn\Microsoft.Managed.Core.targets
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\roslyn\System.AppContext.dll
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\roslyn\System.Collections.Immutable.dll
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\roslyn\System.Console.dll
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\roslyn\System.IO.Compression.dll
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\roslyn\System.IO.FileSystem.dll
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\roslyn\System.IO.Pipes.dll
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\roslyn\System.Reflection.Metadata.dll
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\roslyn\System.Security.AccessControl.dll
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\roslyn\System.Security.Claims.dll
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\roslyn\System.Security.Principal.Windows.dll
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\roslyn\System.ValueTuple.dll
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\roslyn\System.Xml.XmlDocument.dll
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\roslyn\System.Xml.XPath.dll
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\roslyn\vbc.exe
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\roslyn\vbc.exe.config
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\roslyn\vbc.rsp
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\roslyn\VBCSCompiler.exe
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\roslyn\VBCSCompiler.exe.config
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\Antlr3.Runtime.dll
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\EntityFramework.dll
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\EntityFramework.SqlServer.dll
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\Microsoft.AspNet.Identity.Core.dll
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.dll
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Security.Cookies.dll
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Security.dll
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Security.Facebook.dll
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Security.Google.dll
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Security.OAuth.dll
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Security.Twitter.dll
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\Microsoft.Web.Infrastructure.dll
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\Newtonsoft.Json.dll
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\Owin.dll
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\System.Diagnostics.DiagnosticSource.dll
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\System.Web.Helpers.dll
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\System.Web.Mvc.dll
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\System.Web.Optimization.dll
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\System.Web.Razor.dll
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\System.Web.WebPages.Deployment.dll
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\System.Web.WebPages.dll
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\System.Web.WebPages.Razor.dll
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\WebGrease.dll
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\System.Web.Helpers.xml
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\System.Web.Mvc.xml
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\System.Web.Optimization.xml
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\System.Web.Razor.xml
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\System.Web.WebPages.xml
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\System.Web.WebPages.Deployment.xml
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\System.Web.WebPages.Razor.xml
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\Newtonsoft.Json.xml
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\Antlr3.Runtime.pdb
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\EntityFramework.xml
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\EntityFramework.SqlServer.xml
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\Microsoft.AspNet.Identity.Core.xml
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.xml
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Security.xml
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Security.Facebook.xml
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Security.Cookies.xml
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Security.Google.xml
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Security.Twitter.xml
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Security.OAuth.xml
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\System.Diagnostics.DiagnosticSource.xml
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\obj\Debug\RemusixWeb.csproj.CoreCompileInputs.cache
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\obj\Debug\RemusixWeb.csproj.CopyComplete
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\obj\Debug\RemusixWeb.dll
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\obj\Debug\RemusixWeb.pdb
+E:\RemusixWeb\RemusixWeb\bin\RemusixWeb.dll.config
+E:\RemusixWeb\RemusixWeb\bin\RemusixWeb.dll
+E:\RemusixWeb\RemusixWeb\bin\RemusixWeb.pdb
+E:\RemusixWeb\RemusixWeb\bin\roslyn\csc.exe
+E:\RemusixWeb\RemusixWeb\bin\roslyn\csc.exe.config
+E:\RemusixWeb\RemusixWeb\bin\roslyn\csc.rsp
+E:\RemusixWeb\RemusixWeb\bin\roslyn\csi.exe
+E:\RemusixWeb\RemusixWeb\bin\roslyn\csi.exe.config
+E:\RemusixWeb\RemusixWeb\bin\roslyn\csi.rsp
+E:\RemusixWeb\RemusixWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\RemusixWeb\RemusixWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\RemusixWeb\RemusixWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\RemusixWeb\RemusixWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\RemusixWeb\RemusixWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\RemusixWeb\RemusixWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\RemusixWeb\RemusixWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\RemusixWeb\RemusixWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\RemusixWeb\RemusixWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\RemusixWeb\RemusixWeb\bin\roslyn\Microsoft.Managed.Core.targets
+E:\RemusixWeb\RemusixWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\RemusixWeb\RemusixWeb\bin\roslyn\System.AppContext.dll
+E:\RemusixWeb\RemusixWeb\bin\roslyn\System.Collections.Immutable.dll
+E:\RemusixWeb\RemusixWeb\bin\roslyn\System.Console.dll
+E:\RemusixWeb\RemusixWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\RemusixWeb\RemusixWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\RemusixWeb\RemusixWeb\bin\roslyn\System.IO.Compression.dll
+E:\RemusixWeb\RemusixWeb\bin\roslyn\System.IO.FileSystem.dll
+E:\RemusixWeb\RemusixWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\RemusixWeb\RemusixWeb\bin\roslyn\System.IO.Pipes.AccessControl.dll
+E:\RemusixWeb\RemusixWeb\bin\roslyn\System.IO.Pipes.dll
+E:\RemusixWeb\RemusixWeb\bin\roslyn\System.Reflection.Metadata.dll
+E:\RemusixWeb\RemusixWeb\bin\roslyn\System.Security.AccessControl.dll
+E:\RemusixWeb\RemusixWeb\bin\roslyn\System.Security.Claims.dll
+E:\RemusixWeb\RemusixWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\RemusixWeb\RemusixWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\RemusixWeb\RemusixWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\RemusixWeb\RemusixWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\RemusixWeb\RemusixWeb\bin\roslyn\System.Security.Principal.Windows.dll
+E:\RemusixWeb\RemusixWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\RemusixWeb\RemusixWeb\bin\roslyn\System.ValueTuple.dll
+E:\RemusixWeb\RemusixWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\RemusixWeb\RemusixWeb\bin\roslyn\System.Xml.XmlDocument.dll
+E:\RemusixWeb\RemusixWeb\bin\roslyn\System.Xml.XPath.dll
+E:\RemusixWeb\RemusixWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\RemusixWeb\RemusixWeb\bin\roslyn\vbc.exe
+E:\RemusixWeb\RemusixWeb\bin\roslyn\vbc.exe.config
+E:\RemusixWeb\RemusixWeb\bin\roslyn\vbc.rsp
+E:\RemusixWeb\RemusixWeb\bin\roslyn\VBCSCompiler.exe
+E:\RemusixWeb\RemusixWeb\bin\roslyn\VBCSCompiler.exe.config
+E:\RemusixWeb\RemusixWeb\bin\Antlr3.Runtime.dll
+E:\RemusixWeb\RemusixWeb\bin\EntityFramework.dll
+E:\RemusixWeb\RemusixWeb\bin\EntityFramework.SqlServer.dll
+E:\RemusixWeb\RemusixWeb\bin\Microsoft.AspNet.Identity.Core.dll
+E:\RemusixWeb\RemusixWeb\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\RemusixWeb\RemusixWeb\bin\Microsoft.AspNet.Identity.Owin.dll
+E:\RemusixWeb\RemusixWeb\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+E:\RemusixWeb\RemusixWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.dll
+E:\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Host.SystemWeb.dll
+E:\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Security.Cookies.dll
+E:\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Security.dll
+E:\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Security.Facebook.dll
+E:\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Security.Google.dll
+E:\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+E:\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Security.OAuth.dll
+E:\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Security.Twitter.dll
+E:\RemusixWeb\RemusixWeb\bin\Microsoft.Web.Infrastructure.dll
+E:\RemusixWeb\RemusixWeb\bin\Newtonsoft.Json.dll
+E:\RemusixWeb\RemusixWeb\bin\Owin.dll
+E:\RemusixWeb\RemusixWeb\bin\System.Diagnostics.DiagnosticSource.dll
+E:\RemusixWeb\RemusixWeb\bin\System.Web.Helpers.dll
+E:\RemusixWeb\RemusixWeb\bin\System.Web.Mvc.dll
+E:\RemusixWeb\RemusixWeb\bin\System.Web.Optimization.dll
+E:\RemusixWeb\RemusixWeb\bin\System.Web.Razor.dll
+E:\RemusixWeb\RemusixWeb\bin\System.Web.WebPages.Deployment.dll
+E:\RemusixWeb\RemusixWeb\bin\System.Web.WebPages.dll
+E:\RemusixWeb\RemusixWeb\bin\System.Web.WebPages.Razor.dll
+E:\RemusixWeb\RemusixWeb\bin\WebGrease.dll
+E:\RemusixWeb\RemusixWeb\bin\System.Web.Helpers.xml
+E:\RemusixWeb\RemusixWeb\bin\System.Web.Mvc.xml
+E:\RemusixWeb\RemusixWeb\bin\System.Web.Optimization.xml
+E:\RemusixWeb\RemusixWeb\bin\System.Web.Razor.xml
+E:\RemusixWeb\RemusixWeb\bin\System.Web.WebPages.xml
+E:\RemusixWeb\RemusixWeb\bin\System.Web.WebPages.Deployment.xml
+E:\RemusixWeb\RemusixWeb\bin\System.Web.WebPages.Razor.xml
+E:\RemusixWeb\RemusixWeb\bin\Newtonsoft.Json.xml
+E:\RemusixWeb\RemusixWeb\bin\Antlr3.Runtime.pdb
+E:\RemusixWeb\RemusixWeb\bin\EntityFramework.xml
+E:\RemusixWeb\RemusixWeb\bin\EntityFramework.SqlServer.xml
+E:\RemusixWeb\RemusixWeb\bin\Microsoft.AspNet.Identity.Core.xml
+E:\RemusixWeb\RemusixWeb\bin\Microsoft.AspNet.Identity.Owin.xml
+E:\RemusixWeb\RemusixWeb\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.xml
+E:\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Host.SystemWeb.xml
+E:\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Security.xml
+E:\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Security.Facebook.xml
+E:\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Security.Cookies.xml
+E:\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Security.Google.xml
+E:\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Security.Twitter.xml
+E:\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+E:\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Security.OAuth.xml
+E:\RemusixWeb\RemusixWeb\bin\System.Diagnostics.DiagnosticSource.xml
+E:\RemusixWeb\RemusixWeb\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+E:\RemusixWeb\RemusixWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\RemusixWeb\RemusixWeb\obj\Debug\RemusixWeb.csprojResolveAssemblyReference.cache
+E:\RemusixWeb\RemusixWeb\obj\Debug\RemusixWeb.dll
+E:\RemusixWeb\RemusixWeb\obj\Debug\RemusixWeb.pdb
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\RemusixWeb.dll.config
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\RemusixWeb.dll
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\RemusixWeb.pdb
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\roslyn\csc.exe
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\roslyn\csc.exe.config
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\roslyn\csc.rsp
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\roslyn\csi.exe
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\roslyn\csi.exe.config
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\roslyn\csi.rsp
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\roslyn\Microsoft.Managed.Core.targets
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\roslyn\System.AppContext.dll
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\roslyn\System.Collections.Immutable.dll
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\roslyn\System.Console.dll
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\roslyn\System.IO.Compression.dll
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\roslyn\System.IO.FileSystem.dll
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\roslyn\System.IO.Pipes.dll
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\roslyn\System.Reflection.Metadata.dll
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\roslyn\System.Security.AccessControl.dll
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\roslyn\System.Security.Claims.dll
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\roslyn\System.Security.Principal.Windows.dll
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\roslyn\System.ValueTuple.dll
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\roslyn\System.Xml.XmlDocument.dll
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\roslyn\System.Xml.XPath.dll
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\roslyn\vbc.exe
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\roslyn\vbc.exe.config
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\roslyn\vbc.rsp
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\roslyn\VBCSCompiler.exe
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\roslyn\VBCSCompiler.exe.config
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\Antlr3.Runtime.dll
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\EntityFramework.dll
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\EntityFramework.SqlServer.dll
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\Microsoft.AspNet.Identity.Core.dll
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\Microsoft.Owin.dll
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\Microsoft.Owin.Security.Cookies.dll
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\Microsoft.Owin.Security.dll
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\Microsoft.Owin.Security.Facebook.dll
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\Microsoft.Owin.Security.Google.dll
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\Microsoft.Owin.Security.OAuth.dll
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\Microsoft.Owin.Security.Twitter.dll
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\Microsoft.Web.Infrastructure.dll
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\Newtonsoft.Json.dll
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\Owin.dll
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\System.Diagnostics.DiagnosticSource.dll
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\System.Web.Helpers.dll
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\System.Web.Mvc.dll
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\System.Web.Optimization.dll
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\System.Web.Razor.dll
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\System.Web.WebPages.Deployment.dll
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\System.Web.WebPages.dll
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\System.Web.WebPages.Razor.dll
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\WebGrease.dll
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\System.Web.Helpers.xml
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\System.Web.Mvc.xml
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\System.Web.Optimization.xml
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\System.Web.Razor.xml
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\System.Web.WebPages.xml
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\System.Web.WebPages.Deployment.xml
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\System.Web.WebPages.Razor.xml
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\Newtonsoft.Json.xml
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\Antlr3.Runtime.pdb
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\EntityFramework.xml
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\EntityFramework.SqlServer.xml
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\Microsoft.AspNet.Identity.Core.xml
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\Microsoft.Owin.xml
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\Microsoft.Owin.Security.xml
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\Microsoft.Owin.Security.Facebook.xml
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\Microsoft.Owin.Security.Cookies.xml
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\Microsoft.Owin.Security.Google.xml
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\Microsoft.Owin.Security.Twitter.xml
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\Microsoft.Owin.Security.OAuth.xml
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\System.Diagnostics.DiagnosticSource.xml
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\obj\Debug\RemusixWeb.csprojAssemblyReference.cache
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\obj\Debug\RemusixWeb.csproj.CoreCompileInputs.cache
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\obj\Debug\RemusixWeb.csproj.CopyComplete
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\obj\Debug\RemusixWeb.dll
+D:\FCI\levels\project\RemusixWeb - Copy\RemusixWeb\obj\Debug\RemusixWeb.pdb
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\Microsoft.IdentityModel.Logging.dll
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\Microsoft.IdentityModel.Tokens.dll
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\System.IdentityModel.Tokens.Jwt.dll
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\Microsoft.IdentityModel.JsonWebTokens.pdb
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\Microsoft.IdentityModel.Logging.pdb
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\Microsoft.IdentityModel.Logging.xml
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\Microsoft.IdentityModel.Tokens.pdb
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\Microsoft.IdentityModel.Tokens.xml
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\System.IdentityModel.Tokens.Jwt.pdb
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\bin\System.IdentityModel.Tokens.Jwt.xml
+D:\FCI\levels\project\RemusixWeb\RemusixWeb\obj\Debug\RemusixWeb.csprojAssemblyReference.cache
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\obj\Debug\RemusixWeb.csproj.CoreCompileInputs.cache
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\obj\Debug\RemusixWeb.csprojAssemblyReference.cache
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\RemusixWeb.dll.config
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\RemusixWeb.dll
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\RemusixWeb.pdb
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\roslyn\csc.exe
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\roslyn\csc.exe.config
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\roslyn\csc.rsp
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\roslyn\csi.exe
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\roslyn\csi.exe.config
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\roslyn\csi.rsp
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\roslyn\System.AppContext.dll
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\roslyn\System.Console.dll
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\roslyn\System.IO.Compression.dll
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\roslyn\System.IO.Pipes.dll
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\roslyn\System.Security.Claims.dll
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\roslyn\System.ValueTuple.dll
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\roslyn\System.Xml.XPath.dll
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\roslyn\vbc.exe
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\roslyn\vbc.exe.config
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\roslyn\vbc.rsp
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\Antlr3.Runtime.dll
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\EntityFramework.dll
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\EntityFramework.SqlServer.dll
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\Microsoft.IdentityModel.Logging.dll
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\Microsoft.IdentityModel.Tokens.dll
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.dll
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Security.dll
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\Newtonsoft.Json.dll
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\Owin.dll
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\System.Web.Helpers.dll
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\System.Web.Mvc.dll
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\System.Web.Optimization.dll
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\System.Web.Razor.dll
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\System.Web.WebPages.Deployment.dll
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\System.Web.WebPages.dll
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\System.Web.WebPages.Razor.dll
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\WebGrease.dll
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\Microsoft.IdentityModel.JsonWebTokens.pdb
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\Microsoft.IdentityModel.Logging.pdb
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\Microsoft.IdentityModel.Logging.xml
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\Microsoft.IdentityModel.Tokens.pdb
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\Microsoft.IdentityModel.Tokens.xml
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\System.IdentityModel.Tokens.Jwt.pdb
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\System.Web.Helpers.xml
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\System.Web.Mvc.xml
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\System.Web.Optimization.xml
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\System.Web.Razor.xml
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\System.Web.WebPages.xml
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\System.Web.WebPages.Deployment.xml
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\System.Web.WebPages.Razor.xml
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\Newtonsoft.Json.xml
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\Antlr3.Runtime.pdb
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\EntityFramework.xml
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\EntityFramework.SqlServer.xml
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.xml
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Security.xml
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\obj\Debug\RemusixWeb.csproj.CopyComplete
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\obj\Debug\RemusixWeb.dll
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\obj\Debug\RemusixWeb.pdb
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\Facebook.dll
+C:\Users\MISR COMP\Desktop\RemusixWeb\RemusixWeb\bin\Facebook.xml
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\RemusixWeb.dll.config
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\RemusixWeb.dll
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\RemusixWeb.pdb
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\roslyn\csc.exe
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\roslyn\csc.exe.config
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\roslyn\csc.rsp
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\roslyn\csi.exe
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\roslyn\csi.exe.config
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\roslyn\csi.rsp
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\roslyn\Microsoft.Managed.Core.targets
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\roslyn\System.AppContext.dll
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\roslyn\System.Collections.Immutable.dll
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\roslyn\System.Console.dll
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\roslyn\System.IO.Compression.dll
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\roslyn\System.IO.FileSystem.dll
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\roslyn\System.IO.Pipes.AccessControl.dll
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\roslyn\System.IO.Pipes.dll
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\roslyn\System.Reflection.Metadata.dll
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\roslyn\System.Security.AccessControl.dll
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\roslyn\System.Security.Claims.dll
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\roslyn\System.Security.Principal.Windows.dll
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\roslyn\System.ValueTuple.dll
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\roslyn\System.Xml.XmlDocument.dll
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\roslyn\System.Xml.XPath.dll
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\roslyn\vbc.exe
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\roslyn\vbc.exe.config
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\roslyn\vbc.rsp
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\roslyn\VBCSCompiler.exe
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\roslyn\VBCSCompiler.exe.config
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\Antlr3.Runtime.dll
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\EntityFramework.dll
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\EntityFramework.SqlServer.dll
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\Facebook.dll
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\Microsoft.AspNet.Identity.Core.dll
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\Microsoft.AspNet.Identity.Owin.dll
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\Microsoft.IdentityModel.Logging.dll
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\Microsoft.IdentityModel.Tokens.dll
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.dll
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Host.SystemWeb.dll
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Security.Cookies.dll
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Security.dll
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Security.Facebook.dll
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Security.Google.dll
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Security.OAuth.dll
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Security.Twitter.dll
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\Microsoft.Web.Infrastructure.dll
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\Newtonsoft.Json.dll
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\Owin.dll
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\System.Diagnostics.DiagnosticSource.dll
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\System.IdentityModel.Tokens.Jwt.dll
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\System.Web.Helpers.dll
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\System.Web.Mvc.dll
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\System.Web.Optimization.dll
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\System.Web.Razor.dll
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\System.Web.WebPages.Deployment.dll
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\System.Web.WebPages.dll
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\System.Web.WebPages.Razor.dll
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\WebGrease.dll
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\Facebook.xml
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\Microsoft.IdentityModel.JsonWebTokens.pdb
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\Microsoft.IdentityModel.Logging.pdb
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\Microsoft.IdentityModel.Logging.xml
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\Microsoft.IdentityModel.Tokens.pdb
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\Microsoft.IdentityModel.Tokens.xml
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\System.IdentityModel.Tokens.Jwt.pdb
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\System.IdentityModel.Tokens.Jwt.xml
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\System.Web.Helpers.xml
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\System.Web.Mvc.xml
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\System.Web.Optimization.xml
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\System.Web.Razor.xml
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\System.Web.WebPages.xml
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\System.Web.WebPages.Deployment.xml
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\System.Web.WebPages.Razor.xml
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\Newtonsoft.Json.xml
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\Antlr3.Runtime.pdb
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\EntityFramework.xml
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\EntityFramework.SqlServer.xml
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\Microsoft.AspNet.Identity.Core.xml
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\Microsoft.AspNet.Identity.Owin.xml
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.xml
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Host.SystemWeb.xml
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Security.xml
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Security.Facebook.xml
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Security.Cookies.xml
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Security.Google.xml
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Security.Twitter.xml
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Security.OAuth.xml
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\System.Diagnostics.DiagnosticSource.xml
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\obj\Debug\RemusixWeb.csprojAssemblyReference.cache
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\obj\Debug\RemusixWeb.csproj.CoreCompileInputs.cache
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\obj\Debug\RemusixWeb.csproj.CopyComplete
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\obj\Debug\RemusixWeb.dll
+F:\FaceBookAndGoogle\RemusixWeb\RemusixWeb\obj\Debug\RemusixWeb.pdb
+D:\FCI\levels\RemusixWeb\RemusixWeb\obj\Debug\RemusixWeb.csproj.CoreCompileInputs.cache
+D:\FCI\levels\RemusixWeb\RemusixWeb\obj\Debug\RemusixWeb.dll
+D:\FCI\levels\RemusixWeb\RemusixWeb\obj\Debug\RemusixWeb.pdb
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\RemusixWeb.dll.config
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\RemusixWeb.dll
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\RemusixWeb.pdb
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\roslyn\csc.exe
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\roslyn\csc.exe.config
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\roslyn\csc.rsp
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\roslyn\csi.exe
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\roslyn\csi.exe.config
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\roslyn\csi.rsp
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\roslyn\Microsoft.Managed.Core.targets
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\roslyn\System.AppContext.dll
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\roslyn\System.Collections.Immutable.dll
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\roslyn\System.Console.dll
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\roslyn\System.IO.Compression.dll
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\roslyn\System.IO.FileSystem.dll
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\roslyn\System.IO.Pipes.dll
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\roslyn\System.Reflection.Metadata.dll
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\roslyn\System.Security.AccessControl.dll
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\roslyn\System.Security.Claims.dll
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\roslyn\System.Security.Principal.Windows.dll
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\roslyn\System.ValueTuple.dll
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\roslyn\System.Xml.XmlDocument.dll
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\roslyn\System.Xml.XPath.dll
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\roslyn\vbc.exe
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\roslyn\vbc.exe.config
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\roslyn\vbc.rsp
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\roslyn\VBCSCompiler.exe
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\roslyn\VBCSCompiler.exe.config
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\Antlr3.Runtime.dll
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\EntityFramework.dll
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\EntityFramework.SqlServer.dll
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\Facebook.dll
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\Microsoft.AspNet.Identity.Core.dll
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\Microsoft.AspNet.TelemetryCorrelation.dll
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\Microsoft.IdentityModel.Logging.dll
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\Microsoft.IdentityModel.Tokens.dll
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.dll
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Security.Cookies.dll
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Security.dll
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Security.Facebook.dll
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Security.Google.dll
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Security.OAuth.dll
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Security.Twitter.dll
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\Microsoft.Web.Infrastructure.dll
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\Newtonsoft.Json.dll
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\Owin.dll
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\System.Diagnostics.DiagnosticSource.dll
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\System.IdentityModel.Tokens.Jwt.dll
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\System.Web.Helpers.dll
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\System.Web.Mvc.dll
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\System.Web.Optimization.dll
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\System.Web.Razor.dll
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\System.Web.WebPages.Deployment.dll
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\System.Web.WebPages.dll
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\System.Web.WebPages.Razor.dll
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\WebGrease.dll
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\Facebook.xml
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\Microsoft.IdentityModel.JsonWebTokens.pdb
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\Microsoft.IdentityModel.JsonWebTokens.xml
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\Microsoft.IdentityModel.Logging.pdb
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\Microsoft.IdentityModel.Logging.xml
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\Microsoft.IdentityModel.Tokens.pdb
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\Microsoft.IdentityModel.Tokens.xml
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\System.IdentityModel.Tokens.Jwt.pdb
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\System.IdentityModel.Tokens.Jwt.xml
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\System.Web.Helpers.xml
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\System.Web.Mvc.xml
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\System.Web.Optimization.xml
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\System.Web.Razor.xml
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\System.Web.WebPages.xml
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\System.Web.WebPages.Deployment.xml
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\System.Web.WebPages.Razor.xml
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\Newtonsoft.Json.xml
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\Antlr3.Runtime.pdb
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\EntityFramework.xml
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\EntityFramework.SqlServer.xml
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\Microsoft.AspNet.Identity.Core.xml
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.xml
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Security.xml
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Security.Facebook.xml
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Security.Cookies.xml
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Security.Google.xml
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Security.Twitter.xml
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\Microsoft.Owin.Security.OAuth.xml
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\System.Diagnostics.DiagnosticSource.xml
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\Microsoft.AspNet.TelemetryCorrelation.xml
+D:\FCI\levels\RemusixWeb\RemusixWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\FCI\levels\RemusixWeb\RemusixWeb\obj\Debug\RemusixWeb.csproj.CopyComplete
+D:\FCI\levels\RemusixWeb\RemusixWeb\obj\Debug\RemusixWeb.csprojAssemblyReference.cache

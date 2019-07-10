@@ -1,0 +1,201 @@
+﻿@model RemusixWeb.Models.User
+@using RemusixWeb.Models
+@{ Layout = null;}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Mixtape template project">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="~/images/icon.png">
+    <link rel="stylesheet" type="text/css" href="~/styles/bootstrap-4.1.2/bootstrap.min.css">
+    <link href="~/plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="~/plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="~/plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+    <link rel="stylesheet" type="text/css" href="~/plugins/OwlCarousel2-2.2.1/animate.css">
+    <link rel="stylesheet" type="text/css" href="~/styles/contact.css">
+    <link rel="stylesheet" type="text/css" href="~/styles/contact_responsive.css">
+    <link rel="stylesheet" type="text/css" href="~/styles/mystyle.css">
+</head>
+<body>
+
+    <div class="super_container ">
+
+        <!-- Header -->
+        <header class="header">
+            <div class="header_content d-flex flex-row align-items-center justify-content-center">
+                <div class="logo">
+                    <a href="#">
+                        <img src="~/images/iconnew.png">
+                        <div class="clearfix"></div>
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <!-- Menu -->
+        <!-- Home -->
+
+        <div class="contact">
+            <div class="container">
+                <div class="row">
+                    <!-- Contact Form -->
+                    <div class="col-lg-6">
+                        <div class="contact_form_container">
+                            <div class="btn-sx text-center">
+                                <h2>L O G I N</h2>
+                            </div>
+                            @using (Html.BeginForm("Login", "Users", FormMethod.Post, new { @class = "contact_form", id = "contact_form" }))
+                            {
+                                @Html.AntiForgeryToken()
+
+
+                                @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+
+                                @Html.EditorFor(model => model.Email, new { htmlAttributes = new { @class = "contact_input", placeholder = "ess@cvb.com", required = "required" } })
+                                @Html.ValidationMessageFor(model => model.Email, "", new { @class = "text-danger" })
+                                <span id="emailErr" class="text-danger">@ViewBag.emailErr</span>
+
+
+                                @Html.EditorFor(model => model.UserPassword, new { htmlAttributes = new { @class = "contact_input", placeholder = "Password", required = "required" } })
+                                @Html.ValidationMessageFor(model => model.UserPassword, "", new { @class = "text-danger" })
+                                <span id="passErr" class="text-danger">@ViewBag.passErr</span>
+
+                                <div class="btn-sx text-center">
+                                    <button class="contact_button" id="btnLogin">Login</button><br>
+
+                                </div>
+                            }
+
+                            <div class="btn-sx text-center">
+                                <table style="margin-left:100px">
+                                    <tr>
+                                        <td>
+                                            <button type="button" id="id1" class="contactwoh_button btn1_2" onclick="location.href='@Url.Action("Facebook", "UserFaceBookLogin")'">Login with Facebook</button>&ensp;&ensp;
+                                        </td>
+                                <td>
+                                    @Html.Partial("~/Views/Account1/_ExternalLoginsListPartial1.cshtml", new ExternalLoginListViewModel { ReturnUrl = ViewBag.ReturnUrl })
+                                </td>                                                </tr>
+                                </table>
+                            </div>
+                            <div class="btn-sx text-center cont_p_s">
+                                <div style="border: 0.5px solid #9C005C;"></div>
+                                <a href="/Users/SignUp"><button class="contact_button ">Create Account</button></a>	<br>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Contact Info -->
+                    <div class="col-lg-6 contact_col">
+                        <div class="contact_info">
+                            <div class="contact_info_list">
+                                <div>
+                                    <img class="img-thumbnail d-block mx-auto" src="~/images/photocover.png">
+                                </div>
+                            </div>
+                            <div class="social">
+                                <div>
+                                    <a href="#"> <img class="img-thumbnail d-block mx-auto" src="~/images/download.png">   </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer -->
+
+        <footer class="footer">
+            <div class="footer_list">
+                <ul>
+                    <li><a href="~/Home/About">About</a></li>
+                    <li><a href="~/Home/Setting">Setting</a></li>
+                    <li><a href="~/Home/ContactUs">Contact Us</a></li>
+
+                </ul>
+            </div>
+            <div class="copyright_bar">
+
+                <span>
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    Copyright &copy;
+                    <script>document.write(new Date().getFullYear());</script> All rights reserved |  <i class="fa fa-heart-o" aria-hidden="true"></i> by RemusiX team
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                </span>
+            </div>
+        </footer>
+    </div>
+
+    <script src="~/js/jquery-3.2.1.min.js"></script>
+    <script src="~/styles/bootstrap-4.1.2/popper.js"></script>
+    <script src="~/styles/bootstrap-4.1.2/bootstrap.min.js"></script>
+    <script src="~/plugins/greensock/TweenMax.min.js"></script>
+    <script src="~/plugins/greensock/TimelineMax.min.js"></script>
+    <script src="~/plugins/scrollmagic/ScrollMagic.min.js"></script>
+    <script src="~/plugins/greensock/animation.gsap.min.js"></script>
+    <script src="~/plugins/greensock/ScrollToPlugin.min.js"></script>
+    <script src="~/plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+    <script src="~/plugins/easing/easing.js"></script>
+    <script src="~/plugins/progressbar/progressbar.min.js"></script>
+    <script src="~/plugins/parallax-js-master/parallax.min.js"></script>
+    <script src="~/plugins/jPlayer/jquery.jplayer.min.js"></script>
+    <script src="~/plugins/jPlayer/jplayer.playlist.min.js"></script>
+    <script src="~/js/contact.js"></script>
+
+    <script src="~/Scripts/jquery-3.3.1.min.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+
+    @* T *@
+    <script>
+        $(function () {
+
+            $("#Email").keyup(function () {
+                var name = $("#Email").val();
+                if (name.length > 0) {
+                    $.get("/Users/CheckEmail", { Email: $("#Email").val() }, function (state) {
+                        if (state == 1) {
+                            $("#emailErr").text($("#Email").val() + " not exist");
+                            $("#btnLogin").attr("disabled", true);
+                            return false;
+                        }
+                        $("#emailErr").text('');
+                        $("#btnLogin").attr("disabled", false);
+                        return true;
+                    });
+                } $("#emailErr").text('');
+            });
+
+            $("#UserPassword").keyup(function () {
+                var name = $("#UserPassword").val();
+                if (name.length > 0) {
+                    $.get("/Users/CheckEmail", { Email: $("#Email").val(), UserPassword: $("#UserPassword").val() }, function (state) {
+                        if (state == 1) {
+                            $("#passErr").text($("#UserPassword").val() + " wrong");
+                            $("#btnLogin").attr("disabled", true);
+                            return false;
+                        }
+                        $("#passErr").text('');
+                        $("#btnLogin").attr("disabled", false);
+                        return true;
+                    });
+                } $("#passErr").text('');
+            });
+        });
+    </script>
+    @* T end *@
+
+    <script type="text/javascript">
+      $("#id").click = function () {
+      if (ViewBag.Message != null)
+    {
+
+       alert("@ViewBag.Message");
+
+            }
+      };
+    </script>
+</body>
+</html>

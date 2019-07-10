@@ -1,0 +1,51 @@
+.btn1_2{
+    border: solid 3px #297ac2;
+    background: #297ac2;
+}
+.btn1_3{
+    border: solid 3px #d13112;
+    background: #d13112;
+}
+.cont_p_s{
+   margin: 5px
+}
+.cont_p_s p{
+   color: #000;
+   font-size: xx-small;
+}
+.logo img{
+   height: 49.4px;
+   width: 227.82px;
+}
+.contact_info_list img{
+   height:340.01px;
+   width: 175.3px;
+   border: none;
+}
+.social img{
+   width: 196.65px;
+   height: 56.18px;
+   margin-left: 115px ;
+   border: none;
+   margin-top: 5px;
+}
+
+.forget{
+   color: #9F8F99;
+   font-size: smaller;
+
+}
+
+.forget:hover{
+   color: #9C005C
+}
+
+
+
+.radiostyle{
+   
+}
+
+.line{
+  border: 0.5px solid #9C005C;
+}

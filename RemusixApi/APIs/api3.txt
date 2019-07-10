@@ -1,0 +1,126 @@
+﻿						request
+						~~~~~~~
+
+method for create post and save it in db, param(as shown in db)
+method for getting list of posts of an user, param(username)
+method for getting posts likes , param(postid)
+method for like ,param(postname,username)
+method for dislike ,param(postname,username)
+method for search , param(userid)
+method for search , param(email)
+____________________________________________________________________________________
+						response
+						~~~~~~~~
+-method:
+-bool CreatePost(Post post)
+
+-http method:
+post
+
+-return:
+boolean
+
+-url:
+https://remusixapi.conveyor.cloud/api/Posts/CreatePost
+
+- post body:
+{"SongID":1,"ArtistID":1,"PostTime":"2019-06-17 18:09:10.460","UserID":1}
+__________________________________________________________
+
+-method:
+-IEnumerable<CustomPost> UserPosts(string s_username)
+
+-http method:
+get
+
+-return:
+[{"PostID":1,"SongName":"song1","ArtistName":"mounir","ArtistPhoto":null,"UserName":"ahmed_mohamed","Photo":"1.jpg","PostTime":"2019-06-17T18:09:10.46"},
+{"PostID":2,"SongName":"song1","ArtistName":"mounir","ArtistPhoto":null,"UserName":"ahmed_mohamed","Photo":"1.jpg","PostTime":"2019-06-05T18:09:10.46"},
+{"PostID":5,"SongName":"song1","ArtistName":"mounir","ArtistPhoto":null,"UserName":"abdelrahman mohamed","Photo":"2.jpg","PostTime":"2019-06-18T18:09:10.46"}]
+
+-url:
+https://remusixapi.conveyor.cloud/api/Posts/UserPosts?s_username=ahmed_mohamed
+__________________________________________________________
+
+-method:
+-IEnumerable<UserNamePhoto> UsersLikePost(int s_postid)
+
+-http method:
+get
+
+-return:
+[{"UserID":1,"UserName":"ahmed_mohamed","Photo":null}]
+
+-url:
+https://remusixapi.conveyor.cloud/api/Posts/UsersLikePost?s_postid=1
+__________________________________________________________
+
+
+-method:
+-IHttpActionResult LikeDislike(int s_postid,int s_userid)
+
+-http method:
+get
+
+-return:
+"liked!" or "disliked!"
+
+-url:
+https://remusixapi.conveyor.cloud/api/Posts/LikeDislike?s_postid=1&s_userid=35
+__________________________________________________________
+
+-method:
+-IHttpActionResult AddComment(UserCommentPost userCommentPost)
+
+-http method:
+post
+
+-return:
+"commented!" or "not commented!"
+
+-url:
+https://remusixapi.conveyor.cloud/api/Posts/AddComment
+
+-post body:
+{"PostID":1,"UserID":1,"Comment":"good post","CommentTime":"2019-06-17 18:09:10.460"}
+__________________________________________________________
+
+-method:
+-IHttpActionResult RemoveComment(DateTime s_dateTime)
+
+-http method:
+get
+
+-return:
+"comment removed!" or "not datetime!"
+
+-url:
+https://remusixapi.conveyor.cloud/api/Posts/RemoveComment?s_dateTime=2019-06-16 18:09:10.460
+__________________________________________________________
+
+-method:
+-CustomUser GetUser(int s_userid)
+
+-http method:
+get
+
+-return:
+{"UserID":2,"UserName":"body mohamed","FirstName":"body","LastName":"mohamed","Email":"body@remusix.com","UserPassword":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMTEifQ.uIPtkEwqIAXXa51lF4VJaDGjg0paXHJTIb2_ldGUg4s","Photo":"2.jpg","Background":null,"Gender":"m","FacebookUsername":null,"GoogleUsername":null,"SoundcloudUsername":null,"Birthdate":null,"Longitude":null,"Latitude":null}
+
+-url:
+https://remusixapi.conveyor.cloud/api/Users/GetUser?s_userid=2
+__________________________________________________________
+
+
+-method:
+-CustomUser GetUser(string s_email)
+
+-http method:
+get
+
+-return:
+{"UserID":2,"UserName":"body mohamed","FirstName":"body","LastName":"mohamed","Email":"body@remusix.com","UserPassword":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMTEifQ.uIPtkEwqIAXXa51lF4VJaDGjg0paXHJTIb2_ldGUg4s","Photo":"2.jpg","Background":null,"Gender":"m","FacebookUsername":null,"GoogleUsername":null,"SoundcloudUsername":null,"Birthdate":null,"Longitude":null,"Latitude":null}
+
+-url:
+https://remusixapi.conveyor.cloud/api/Users/GetUser?s_email=body@remusix.com
+__________________________________________________________

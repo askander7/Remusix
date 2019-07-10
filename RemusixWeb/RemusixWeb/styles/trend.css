@@ -1,0 +1,30 @@
+.noty{
+    background-color: #fff;
+    padding: 8px 0px 8px 0px;
+}
+.activnoty{
+    background-color: #fff;
+    padding: 5px 5px 5px 5px;
+}
+.cspan{
+    background-color: #fff;
+    font-size: smaller;
+    color: #9C005C;
+}
+.trenda {
+    border: 1px dashed #9C005C;
+	outline: none;
+	padding: 2px 5px ;
+}
+.htitle{
+    display: inline;
+}
+
+.search{
+  border-radius: 100rem;
+  margin: auto;
+}
+
+
+
+

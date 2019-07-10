@@ -1,0 +1,63 @@
+﻿@model IEnumerable<RemusixWeb.Models.Album>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.AlbumName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.YearOfProduction)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Plays)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Rating)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AlbumDescription)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Artist.ArtistName)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.AlbumName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.YearOfProduction)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Plays)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Rating)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.AlbumDescription)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Artist.ArtistName)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.AlbumID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.AlbumID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.AlbumID })
+        </td>
+    </tr>
+}
+
+</table>

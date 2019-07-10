@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="RemusixDBModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Album">
+    <Key>
+      <PropertyRef Name="AlbumID" />
+    </Key>
+    <Property Name="AlbumID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AlbumName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="YearOfProduction" Type="DateTime" Precision="0" />
+    <Property Name="Plays" Type="Int32" />
+    <Property Name="Rating" Type="Int32" />
+    <Property Name="AlbumDescription" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="ArtistID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Artist" Relationship="Self.FK_Albums_Artists" FromRole="Albums" ToRole="Artists" />
+    <NavigationProperty Name="Songs" Relationship="Self.FK_Songs_Albums" FromRole="Albums" ToRole="Songs" />
+  </EntityType>
+  <EntityType Name="Artist">
+    <Key>
+      <PropertyRef Name="ArtistID" />
+    </Key>
+    <Property Name="ArtistID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="ArtistName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="ArtistBirthDate" Type="DateTime" Precision="0" />
+    <Property Name="ArtistRating" Type="Int32" />
+    <Property Name="ArtistPhoto" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Albums" Relationship="Self.FK_Albums_Artists" FromRole="Artists" ToRole="Albums" />
+    <NavigationProperty Name="Songs" Relationship="Self.FK_Songs_Artists" FromRole="Artists" ToRole="Songs" />
+    <NavigationProperty Name="UserFollowArtists" Relationship="Self.FK_UserFollowArtists_Artists" FromRole="Artists" ToRole="UserFollowArtists" />
+  </EntityType>
+  <EntityType Name="Friend">
+    <Key>
+      <PropertyRef Name="UserID" />
+      <PropertyRef Name="FriendID" />
+    </Key>
+    <Property Name="UserID" Type="Int32" Nullable="false" />
+    <Property Name="FriendID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="User" Relationship="Self.FK_Friends_Users" FromRole="Friends" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="Genre">
+    <Key>
+      <PropertyRef Name="GenreID" />
+    </Key>
+    <Property Name="GenreID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="GenreName" Type="String" MaxLength="35" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="Songs" Relationship="Self.FK_Songs_Genres" FromRole="Genres" ToRole="Songs" />
+  </EntityType>
+  <EntityType Name="Post">
+    <Key>
+      <PropertyRef Name="PostID" />
+    </Key>
+    <Property Name="PostID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="PostContent" Type="String" MaxLength="1000" FixedLength="false" Unicode="true" />
+    <Property Name="PostTime" Type="DateTime" Precision="3" />
+    <Property Name="UserID" Type="Int32" />
+    <NavigationProperty Name="User" Relationship="Self.FK_Posts_Users" FromRole="Posts" ToRole="Users" />
+    <NavigationProperty Name="UserLikePosts" Relationship="Self.FK_UserLikePosts_Posts" FromRole="Posts" ToRole="UserLikePosts" />
+  </EntityType>
+  <EntityType Name="Song">
+    <Key>
+      <PropertyRef Name="SongID" />
+    </Key>
+    <Property Name="SongID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="SongName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="YearOfProduction" Type="DateTime" Precision="0" />
+    <Property Name="GenreID" Type="Int32" />
+    <Property Name="Plays" Type="Int32" />
+    <Property Name="Rating" Type="Int32" />
+    <Property Name="SongDescription" Type="String" MaxLength="250" FixedLength="false" Unicode="true" />
+    <Property Name="AlbumID" Type="Int32" Nullable="false" />
+    <Property Name="ArtistID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Album" Relationship="Self.FK_Songs_Albums" FromRole="Songs" ToRole="Albums" />
+    <NavigationProperty Name="Artist" Relationship="Self.FK_Songs_Artists" FromRole="Songs" ToRole="Artists" />
+    <NavigationProperty Name="Genre" Relationship="Self.FK_Songs_Genres" FromRole="Songs" ToRole="Genres" />
+    <NavigationProperty Name="UserListenSongs" Relationship="Self.FK_UserListenSongs_Songs" FromRole="Songs" ToRole="UserListenSongs" />
+  </EntityType>
+  <EntityType Name="UserFollowArtist">
+    <Key>
+      <PropertyRef Name="UserID" />
+      <PropertyRef Name="ArtistID" />
+    </Key>
+    <Property Name="UserID" Type="Int32" Nullable="false" />
+    <Property Name="ArtistID" Type="Int32" Nullable="false" />
+    <Property Name="empty" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Artist" Relationship="Self.FK_UserFollowArtists_Artists" FromRole="UserFollowArtists" ToRole="Artists" />
+    <NavigationProperty Name="User" Relationship="Self.FK_UserFollowArtists_Users" FromRole="UserFollowArtists" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="UserLikePost">
+    <Key>
+      <PropertyRef Name="UserID" />
+      <PropertyRef Name="PostID" />
+    </Key>
+    <Property Name="UserID" Type="Int32" Nullable="false" />
+    <Property Name="PostID" Type="Int32" Nullable="false" />
+    <Property Name="Comment" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="Post" Relationship="Self.FK_UserLikePosts_Posts" FromRole="UserLikePosts" ToRole="Posts" />
+    <NavigationProperty Name="User" Relationship="Self.FK_UserLikePosts_Users" FromRole="UserLikePosts" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="UserListenSong">
+    <Key>
+      <PropertyRef Name="UserID" />
+      <PropertyRef Name="SongID" />
+    </Key>
+    <Property Name="UserID" Type="Int32" Nullable="false" />
+    <Property Name="SongID" Type="Int32" Nullable="false" />
+    <Property Name="ListenTime" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="Song" Relationship="Self.FK_UserListenSongs_Songs" FromRole="UserListenSongs" ToRole="Songs" />
+    <NavigationProperty Name="User" Relationship="Self.FK_UserListenSongs_Users" FromRole="UserListenSongs" ToRole="Users" />
+  </EntityType>
+  <EntityType Name="User">
+    <Key>
+      <PropertyRef Name="UserID" />
+    </Key>
+    <Property Name="UserID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="UserName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="FirstName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="LastName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Email" Type="String" MaxLength="50" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="UserPassword" Type="String" MaxLength="200" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Photo" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Background" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+    <Property Name="Gender" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="FacebookUsername" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="GoogleUsername" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SoundcloudUsername" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Birthdate" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="Friends" Relationship="Self.FK_Friends_Users" FromRole="Users" ToRole="Friends" />
+    <NavigationProperty Name="Posts" Relationship="Self.FK_Posts_Users" FromRole="Users" ToRole="Posts" />
+    <NavigationProperty Name="UserFollowArtists" Relationship="Self.FK_UserFollowArtists_Users" FromRole="Users" ToRole="UserFollowArtists" />
+    <NavigationProperty Name="UserLikePosts" Relationship="Self.FK_UserLikePosts_Users" FromRole="Users" ToRole="UserLikePosts" />
+    <NavigationProperty Name="UserListenSongs" Relationship="Self.FK_UserListenSongs_Users" FromRole="Users" ToRole="UserListenSongs" />
+  </EntityType>
+  <Association Name="FK_Albums_Artists">
+    <End Role="Artists" Type="Self.Artist" Multiplicity="1" />
+    <End Role="Albums" Type="Self.Album" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Artists">
+        <PropertyRef Name="ArtistID" />
+      </Principal>
+      <Dependent Role="Albums">
+        <PropertyRef Name="ArtistID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Songs_Albums">
+    <End Role="Albums" Type="Self.Album" Multiplicity="1" />
+    <End Role="Songs" Type="Self.Song" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Albums">
+        <PropertyRef Name="AlbumID" />
+      </Principal>
+      <Dependent Role="Songs">
+        <PropertyRef Name="AlbumID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Songs_Artists">
+    <End Role="Artists" Type="Self.Artist" Multiplicity="1" />
+    <End Role="Songs" Type="Self.Song" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Artists">
+        <PropertyRef Name="ArtistID" />
+      </Principal>
+      <Dependent Role="Songs">
+        <PropertyRef Name="ArtistID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserFollowArtists_Artists">
+    <End Role="Artists" Type="Self.Artist" Multiplicity="1" />
+    <End Role="UserFollowArtists" Type="Self.UserFollowArtist" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Artists">
+        <PropertyRef Name="ArtistID" />
+      </Principal>
+      <Dependent Role="UserFollowArtists">
+        <PropertyRef Name="ArtistID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Friends_Users">
+    <End Role="Users" Type="Self.User" Multiplicity="1" />
+    <End Role="Friends" Type="Self.Friend" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="Friends">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Songs_Genres">
+    <End Role="Genres" Type="Self.Genre" Multiplicity="0..1" />
+    <End Role="Songs" Type="Self.Song" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Genres">
+        <PropertyRef Name="GenreID" />
+      </Principal>
+      <Dependent Role="Songs">
+        <PropertyRef Name="GenreID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Posts_Users">
+    <End Role="Users" Type="Self.User" Multiplicity="0..1" />
+    <End Role="Posts" Type="Self.Post" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="Posts">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserLikePosts_Posts">
+    <End Role="Posts" Type="Self.Post" Multiplicity="1" />
+    <End Role="UserLikePosts" Type="Self.UserLikePost" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Posts">
+        <PropertyRef Name="PostID" />
+      </Principal>
+      <Dependent Role="UserLikePosts">
+        <PropertyRef Name="PostID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserListenSongs_Songs">
+    <End Role="Songs" Type="Self.Song" Multiplicity="1" />
+    <End Role="UserListenSongs" Type="Self.UserListenSong" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Songs">
+        <PropertyRef Name="SongID" />
+      </Principal>
+      <Dependent Role="UserListenSongs">
+        <PropertyRef Name="SongID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserFollowArtists_Users">
+    <End Role="Users" Type="Self.User" Multiplicity="1" />
+    <End Role="UserFollowArtists" Type="Self.UserFollowArtist" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="UserFollowArtists">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserLikePosts_Users">
+    <End Role="Users" Type="Self.User" Multiplicity="1" />
+    <End Role="UserLikePosts" Type="Self.UserLikePost" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="UserLikePosts">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_UserListenSongs_Users">
+    <End Role="Users" Type="Self.User" Multiplicity="1" />
+    <End Role="UserListenSongs" Type="Self.UserListenSong" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Users">
+        <PropertyRef Name="UserID" />
+      </Principal>
+      <Dependent Role="UserListenSongs">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="RemusixDBEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Albums" EntityType="Self.Album" />
+    <EntitySet Name="Artists" EntityType="Self.Artist" />
+    <EntitySet Name="Friends" EntityType="Self.Friend" />
+    <EntitySet Name="Genres" EntityType="Self.Genre" />
+    <EntitySet Name="Posts" EntityType="Self.Post" />
+    <EntitySet Name="Songs" EntityType="Self.Song" />
+    <EntitySet Name="UserFollowArtists" EntityType="Self.UserFollowArtist" />
+    <EntitySet Name="UserLikePosts" EntityType="Self.UserLikePost" />
+    <EntitySet Name="UserListenSongs" EntityType="Self.UserListenSong" />
+    <EntitySet Name="Users" EntityType="Self.User" />
+    <AssociationSet Name="FK_Albums_Artists" Association="Self.FK_Albums_Artists">
+      <End Role="Artists" EntitySet="Artists" />
+      <End Role="Albums" EntitySet="Albums" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Songs_Albums" Association="Self.FK_Songs_Albums">
+      <End Role="Albums" EntitySet="Albums" />
+      <End Role="Songs" EntitySet="Songs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Songs_Artists" Association="Self.FK_Songs_Artists">
+      <End Role="Artists" EntitySet="Artists" />
+      <End Role="Songs" EntitySet="Songs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserFollowArtists_Artists" Association="Self.FK_UserFollowArtists_Artists">
+      <End Role="Artists" EntitySet="Artists" />
+      <End Role="UserFollowArtists" EntitySet="UserFollowArtists" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Friends_Users" Association="Self.FK_Friends_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Friends" EntitySet="Friends" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Songs_Genres" Association="Self.FK_Songs_Genres">
+      <End Role="Genres" EntitySet="Genres" />
+      <End Role="Songs" EntitySet="Songs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Posts_Users" Association="Self.FK_Posts_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="Posts" EntitySet="Posts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserLikePosts_Posts" Association="Self.FK_UserLikePosts_Posts">
+      <End Role="Posts" EntitySet="Posts" />
+      <End Role="UserLikePosts" EntitySet="UserLikePosts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserListenSongs_Songs" Association="Self.FK_UserListenSongs_Songs">
+      <End Role="Songs" EntitySet="Songs" />
+      <End Role="UserListenSongs" EntitySet="UserListenSongs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserFollowArtists_Users" Association="Self.FK_UserFollowArtists_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="UserFollowArtists" EntitySet="UserFollowArtists" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserLikePosts_Users" Association="Self.FK_UserLikePosts_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="UserLikePosts" EntitySet="UserLikePosts" />
+    </AssociationSet>
+    <AssociationSet Name="FK_UserListenSongs_Users" Association="Self.FK_UserListenSongs_Users">
+      <End Role="Users" EntitySet="Users" />
+      <End Role="UserListenSongs" EntitySet="UserListenSongs" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

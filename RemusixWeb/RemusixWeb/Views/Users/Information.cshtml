@@ -1,0 +1,344 @@
+﻿@model RemusixWeb.Models.User
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Account Information</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Mixtape template project">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="~/images/icon.png">
+    <link rel="stylesheet" type="text/css" href="~/styles/bootstrap-4.1.2/bootstrap.min.css">
+    <link href="~/plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="~/plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="~/plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+    <link rel="stylesheet" type="text/css" href="~/plugins/OwlCarousel2-2.2.1/animate.css">
+    <link rel="stylesheet" type="text/css" href="~/styles/blog.css">
+    <link rel="stylesheet" type="text/css" href="~/styles/blog_responsive.css">
+    <link rel="stylesheet" type="text/css" href="~/styles/settingmystyle.css">
+</head>
+<body>
+
+    <div class="super_container">
+
+        <!-- Header -->
+        <div hidden>
+            <header class="header">
+
+                <div class="header_content d-flex flex-row align-items-center justify-content-center">
+                    <div class="logo"><a href="~/Login.html"><img src="~/images/icon.png"></a></div>
+                    <div class="log_reg">
+                        <ul class="d-flex flex-row align-items-start justify-content-start">
+                            <li><a href="~/Login.html">Login</a></li>
+                            <li><a href="~/Sign_Up.html">Register</a></li>
+                        </ul>
+                    </div>
+                    <div class="hamburger ml-auto">
+                        <div class="d-flex flex-column align-items-end justify-content-between">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+        </div>
+
+        <!-- Header whith loggin -->
+        <div>
+            <header class="header">
+                <div class="header_content d-flex flex-row align-items-center justify-content-center">
+                    <div class="logo"><a href="~/Home/Home"><img src="~/images/icon.png"></a></div>
+                    <div class="log_reg ">
+
+                        <a href="~/Users/UserProfile"><div class="profilpic" title="Profile"></div></a>
+                    </div>
+                    <div class="log_reg">
+                        <ul class="d-flex flex-row align-items-start justify-content-start">
+                            <li><a title="logout" href="~/Users/LogOut"><i class="fa fa-sign-out" aria-hidden="true"></i></a></li>
+                        </ul>
+
+                    </div>
+                    <nav class="main_nav">
+                        <ul class="d-flex flex-row align-items-start justify-content-start">
+                            <li><a href="~/Home/Home">Home</a></li>
+                            <li><a href="~/Users/Notification">Notification</a></li>
+                            <li><a href="~/Users/Trend">Trend</a></li>
+                        </ul>
+                    </nav>
+                    <div class="hamburger ml-auto">
+                        <div class="d-flex flex-column align-items-end justify-content-between">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+        <!-- Menu -->
+        <div hidden>
+            <div class="menu">
+                <div>
+                    <div class="menu_overlay"></div>
+                    <div class="menu_container d-flex flex-column align-items-start justify-content-center">
+                        <div class="menu_log_reg">
+                            <ul class="d-flex flex-row align-items-start justify-content-start">
+                                <li><a href="~/Login.html">Login</a></li>
+                                <li><a href="~/Sign_Up.html">Register</a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Menu with login-->
+        <div>
+            <div class="menu">
+                <div>
+                    <div class="menu_overlay"></div>
+                    <div class="menu_container d-flex flex-column align-items-start justify-content-center">
+                        <div class="menu_log_reg">
+                            <ul class="d-flex flex-row align-items-start justify-content-start">
+                                <li><a href="~/Profile.html">User_name</a></li>
+                            </ul>
+                        </div>
+                        <nav class="menu_nav">
+                            <ul class="d-flex flex-column align-items-start justify-content-start">
+                                <li><a href="~/Home.html">Home</a></li>
+                                <li><a href="~/Notification.html">Notification</a></li>
+                                <li><a href="~/Trend.html">Trend</a></li>
+
+                            </ul>
+                        </nav>
+                        <div class="menu_log_reg">
+                            <ul class="d-flex flex-row align-items-start justify-content-start">
+                                <li><a href="~/Profile.html">LogOut</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Home -->
+        <!-- Blog -->
+
+        <div class="blog">
+            <div class="container">
+                <div class="row">
+
+                    <!-- Blog Posts -->
+                    <div class="col-lg-9">
+                        <div class="blog_posts">
+
+                            <!-- Blog Post -->
+                            <div class="blog_post">
+                                <div class="blog_post_title"><h2>Account Setting </h2></div>
+
+                                <div class="blog_post_info">
+                                    <ul class="d-flex flex-row align-items-start justify-content-start">
+                                        <li> Account </li>
+                                        <li> Information </li>
+                                    </ul>
+                                </div>
+
+                                <!-- forms -->
+
+                                <div class="newsletter_container">
+                                    <!-- User_Name -->
+                                    <div class="newsletter_title"><h4>User_Name</h4></div>
+                                    <form action="/Users/EditUserName" method="post" id="newsletter_form" class="newsletter_form">
+                                        @Html.AntiForgeryToken()
+                                        <input type="text" name="Email" value="@Model.Email" hidden />
+                                        <input type="text" name="UserName" id="UserName" value="@Model.UserName" class="newsletter_input" placeholder="essh_97" required>
+                                        @Html.ValidationMessageFor(model => model.UserName, "", new { id = "CheckUserName", style = "color:DarkRed" })
+                                        <input type="submit" id="btnName" class="newsletter_button" value="E D I T S">
+                                    </form> <br>
+                                    <!-- email -->
+                                    <div class="newsletter_title"><h4>Email</h4></div>
+                                    <form action="/Users/EditEmail" method="post" id="newsletter_form" class="newsletter_form">
+                                        @Html.AntiForgeryToken()
+                                        <input type="text" name="oldEmail" value="@Model.Email" hidden />
+                                        <input type="email" name="Email" id="Email" value="@Model.Email" class="newsletter_input" placeholder="esshh@gmail.xom" required>
+                                        @Html.ValidationMessageFor(model => model.Email, "", new { id = "checkEmail", style = "color:DarkRed" })
+                                        <input type="submit" id="btnEmail" class="newsletter_button" value="E D I T S">
+                                    </form><br>
+                                    <!-- phone -->
+                                    <div class="newsletter_title"><h4>Phone Number</h4></div>
+                                    <form action="#" id="newsletter_form" class="newsletter_form">
+                                        <input type="number" class="newsletter_input" placeholder="010****4" disabled>
+                                        <button class="newsletter_button"> E D I T S </button>
+                                    </form> <br>
+                                    <!-- password -->
+                                    <div class="newsletter_title"><h4>Password</h4></div>
+                                    <form action="/Users/EditPass" method="post" id="newsletter_form" class="newsletter_form">
+                                        @Html.AntiForgeryToken()
+                                        <input type="text" name="passEmail" id="passEmail" value="@Model.Email" hidden />
+                                        <input type="password" name="OldPassword" id="OldPassword" class="newsletter_input" placeholder="old password" required />
+                                        <span class="text-danger" id="erroldpass"></span>
+                                        <input type="password" name="UserPassword" id="UserPassword" class="newsletter_input" placeholder="**********" required> <br>
+                                        @Html.ValidationMessageFor(model => model.UserPassword, "", new { style = "color:DarkRed" })
+                                        <span class="text-danger" id="errnewpass"></span>
+                                        <input type="password" name="ConfirmPassword" id="ConfirmPassword" class="newsletter_input" placeholder="confirm Password" required> <br>
+                                        @Html.ValidationMessageFor(model => model.ConfirmPassword, "", new { style = "color:DarkRed" })
+
+                                        <input type="submit" id="btnPass" class="newsletter_button" value="E D I T S"><br>
+                                    </form> <br>
+                                </div>
+
+
+                            </div>
+
+                            <!-- Blog Post -->
+                            <!-- Blog Post -->
+
+
+                        </div>
+
+                    </div>
+
+                    <!-- Sidebar -->
+                    <div class="col-lg-3">
+                        <div class="sidebar">
+                            <div class="sidebar_section">
+                                <div class="blog_post_title sact"><h3>Account Setting</h3></div>
+                                <div class="sidebar_list sact">
+                                    <ul>
+                                        <li><a href="">Account Information</a></li>
+                                        <li><a href="~/Home/ConnectWith">Connect With</a></li>
+                                        <li><a href="~/Users/BlockList">Block List</a></li>
+                                        <li><a href="~/Users/Location">Location</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="sidebar_section">
+                                <div class="blog_post_title "><a href="~/Home/About"><h3>About Us</h3></a></div>
+
+                            </div>
+                            <div class="sidebar_section">
+                                <div class="blog_post_title"><a href="~/Home/ContactUs"><h3>Contact Us</h3></a></div>
+                            </div>
+                            <div class="blog_post_text deact">
+                                <a href="~/Home/DeActive"><p>Deactive Account.</p></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+
+        <footer class="footer">
+            <div class="footer_list">
+                <ul>
+                    <li><a href="~/Home/About">About</a></li>
+                    <li><a href="~/Home/Setting">Setting</a></li>
+                    <li><a href="~/Home/ContactUs">Contact Us</a></li>
+
+                </ul>
+            </div>
+            <div class="copyright_bar">
+
+                <span>
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    Copyright &copy;
+                    <script>document.write(new Date().getFullYear());</script> All rights reserved |  <i class="fa fa-heart-o" aria-hidden="true"></i> by RemusiX team
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                </span>
+            </div>
+        </footer>
+    </div>
+
+
+    <script src="~/Scripts/jquery-3.3.1.min.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+    <script src="~/js/jquery-3.2.1.min.js"></script>
+    <script src="~/styles/bootstrap-4.1.2/popper.js"></script>
+    <script src="~/styles/bootstrap-4.1.2/bootstrap.min.js"></script>
+    <script src="~/plugins/greensock/TweenMax.min.js"></script>
+    <script src="~/plugins/greensock/TimelineMax.min.js"></script>
+    <script src="~/plugins/scrollmagic/ScrollMagic.min.js"></script>
+    <script src="~/plugins/greensock/animation.gsap.min.js"></script>
+    <script src="~/plugins/greensock/ScrollToPlugin.min.js"></script>
+    <script src="~/plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+    <script src="~/plugins/easing/easing.js"></script>
+    <script src="~/plugins/progressbar/progressbar.min.js"></script>
+    <script src="~/plugins/parallax-js-master/parallax.min.js"></script>
+    <script src="~/plugins/jPlayer/jquery.jplayer.min.js"></script>
+    <script src="~/plugins/jPlayer/jplayer.playlist.min.js"></script>
+    <script src="~/js/blog.js"></script>
+
+    @* T *@
+    <script>
+        $(function () {
+
+            $("#Email").keyup(function () {
+                $("#checkEmail").text('');
+                $.get("/Users/CheckEmail", { Email: $("#Email").val() }, function (state) {
+                    if (state == 0) {
+                        $("#checkEmail").text($("#Email").val() + " already exist");
+                        $("#btnEmail").attr("disabled", true);
+                        return false;
+                    }
+                    $("#checkEmail").text('');
+                    $("#btnEmail").attr("disabled", false);
+                    return true;
+                });
+            });
+
+
+            $("#UserName").keyup(function () {
+                $("#CheckUserName").text('');
+                $.get("/Users/CheckUserName", { UserName: $("#UserName").val() }, function (state) {
+                    if (state == 0) {
+                        $("#CheckUserName").text($("#UserName").val() + " already exist");
+                        $("#btnName").attr("disabled", true);
+                        return false;
+                    }
+                    $("#CheckUserName").text('');
+                    $("#btnName").attr("disabled", false);
+                    return true;
+                });
+            });
+        });
+
+        var jq = $.noConflict();
+        jq(function ($) {
+            $("#OldPassword").val(''); $("#UserPassword").val('');
+            $("#OldPassword").keyup(function () {
+
+                $.get("/Users/getoldpass", { passEmail: $("#passEmail").val(), OldPassword: $("#OldPassword").val() }, function (state) {
+                    if (state == 0) {
+                        $("#erroldpass").text("wrong password");
+                        $("#btnPass").attr("disabled", true);
+                        return false;
+                    }
+                    $("#erroldpass").text('');
+                    $("#btnPass").attr("disabled", false);
+                    return true;
+                });
+
+            });
+            $("#UserPassword").keyup(function () {
+                if ($("#OldPassword").val() == $("#UserPassword").val()) { $("#errnewpass").text("new password required"); $("#btnPass").attr("disabled", true); return false; }
+                $("#errnewpass").text('');
+                $("#btnPass").attr("disabled", false);
+                return true;
+            });
+        });
+
+    </script>
+    @* T end *@
+</body>
+</html>

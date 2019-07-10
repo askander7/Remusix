@@ -1,0 +1,411 @@
+﻿@model RemusixWeb.Models.User
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Likes</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Mixtape template project">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="~/images/icon.png">
+    <link rel="stylesheet" type="text/css" href="~/styles/bootstrap-4.1.2/bootstrap.min.css">
+    <link href="~/plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="~/plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+    <link rel="stylesheet" type="text/css" href="~/plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+    <link rel="stylesheet" type="text/css" href="~/plugins/OwlCarousel2-2.2.1/animate.css">
+    <link rel="stylesheet" type="text/css" href="~/styles/contact.css">
+    <link rel="stylesheet" type="text/css" href="~/styles/contact_responsive.css">
+    <link rel="stylesheet" type="text/css" href="~/styles/about.css">
+    <link rel="stylesheet" type="text/css" href="~/styles/about_responsive.css">
+    <link rel="stylesheet" type="text/css" href="~/styles/main_styles.css">
+    <link rel="stylesheet" type="text/css" href="~/styles/responsive.css">
+    <link rel="stylesheet" type="text/css" href="~/styles/profilemystyle.css">
+
+</head>
+<body>
+
+    <div class="super_container">
+
+        <header class="header" hidden>
+
+            <div class="header_content d-flex flex-row align-items-center justify-content-center">
+                <div class="logo"><a href="~/#"><img src="~/images/icon.png"></a></div>
+                <div class="log_reg">
+                    <ul class="d-flex flex-row align-items-start justify-content-start">
+                        <li><a href="~/Login.html">Login</a></li>
+                        <li><a href="~/Sign_Up.html">Register</a></li>
+                    </ul>
+                </div>
+                <div class="hamburger ml-auto">
+                    <div class="d-flex flex-column align-items-end justify-content-between">
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+
+        <!-- Header whith loggin -->
+        <div>
+            <header class="header">
+                <div class="header_content d-flex flex-row align-items-center justify-content-center">
+                    <div class="logo"><a href="~/Home.html"><img src="~/images/icon.png"></a></div>
+                    <div class="log_reg ">
+
+                        <a href="~/Users/UserProfile"><div class="profilpic" title="Profile"></div></a>
+                    </div>
+                    <div class="log_reg">
+                        <ul class="d-flex flex-row align-items-start justify-content-start">
+                            <li><a title="logout" href="~/Users/Logout"><i class="fa fa-sign-out" aria-hidden="true"></i></a></li>
+                        </ul>
+
+                    </div>
+                    <nav class="main_nav">
+                        <ul class="d-flex flex-row align-items-start justify-content-start">
+                            <li><a href="~/Home.html">Home</a></li>
+                            <li><a href="~/Notification.html">Notification</a></li>
+                            <li><a href="~/Trend.html">Trend</a></li>
+                        </ul>
+                    </nav>
+                    <div class="hamburger ml-auto">
+                        <div class="d-flex flex-column align-items-end justify-content-between">
+                            <div></div>
+                            <div></div>
+                            <div></div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+        <!-- Menu -->
+        <div class="menu" hidden>
+            <div>
+                <div class="menu_overlay"></div>
+                <div class="menu_container d-flex flex-column align-items-start justify-content-center">
+                    <div class="menu_log_reg">
+                        <ul class="d-flex flex-row align-items-start justify-content-start">
+                            <li><a href="~/Login.html">Login</a></li>
+                            <li><a href="~/Sign_Up.html">Register</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- Menu with login-->
+        <div>
+            <div class="menu">
+                <div>
+                    <div class="menu_overlay"></div>
+                    <div class="menu_container d-flex flex-column align-items-start justify-content-center">
+                        <div class="menu_log_reg">
+                            <ul class="d-flex flex-row align-items-start justify-content-start">
+                                <li><a href="~/Profile.html">User_name</a></li>
+                            </ul>
+                        </div>
+                        <nav class="menu_nav">
+                            <ul class="d-flex flex-column align-items-start justify-content-start">
+                                <li><a href="~/Home.html">Home</a></li>
+                                <li><a href="~/Notification.html">Notification</a></li>
+                                <li><a href="~/Trend.html">Trend</a></li>
+                            </ul>
+                        </nav>
+                        <div class="menu_log_reg">
+                            <ul class="d-flex flex-row align-items-start justify-content-start">
+                                <li><a href="~/Login.html">LogOut</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Shows -->
+
+        <div class="shows">
+            <div class="container">
+                <div class="row shows_row">
+
+                    <!-- Shows List -->
+                    <div class="col-lg-8 order-lg-1 order-2 shows_list_col">
+                        <div class="shows_list_container">
+
+                            <!-- Shows username & name -->
+                            <div class="row" style="z-index:10;">
+                                <div class="col">
+                                    <div class="section_title_container">
+
+                                        <div class="section_title"><h1>@Model.FirstName</h1></div>
+                                        <div class="section_subtitle">@Model.UserName</div>
+                                        <div class="iconstyle"> <a href="~/#"><i class="fa fa-ban" style="color:purple"></i></a>   </div>
+                                    </div>
+                                </div>
+                            </div><br><br>
+
+                            <!-- Shows username & name -->
+                            <div class="row" style="z-index:10;">
+                                <div class="col">
+
+
+                                    <!-- Shows info -->
+                                    <div class="section_title_container">
+                                        <div class="show_info d-flex flex-md-row flex-column align-items-md-center align-items-start justify-content-md-start justify-content-center">
+                                            <div class="show_location">
+                                                <div class="iconstyle">
+                                                    <i class="fa fa-user iconi"> </i>
+                                                </div>
+                                                <div class="texticon"> @Model.FirstName @Model.LastName</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Shows bod -->
+                                    <div class="section_title_container">
+                                        <div class="show_info d-flex flex-md-row flex-column align-items-md-center align-items-start justify-content-md-start justify-content-center">
+                                            <div class="show_location">
+                                                <div class="iconstyle">
+                                                    <i class="fa fa-calendar iconi"> </i>
+                                                </div>
+                                                <div class="texticon"> @Model.Birthdate</div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <!-- Shows location -->
+                                    <div class="section_title_container">
+                                        <div class="show_info d-flex flex-md-row flex-column align-items-md-center align-items-start justify-content-md-start justify-content-center">
+                                            <div class="show_location">
+                                                <div class="iconstyle">
+                                                    <i class="fa fa-map-marker iconi"> </i>
+                                                </div>
+                                                <div class="texticon"> <a target="_blank" href="https://www.latlong.net/c/?lat=@Model.Latitude&long=@Model.Longitude">MyLocation</a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                            </div><br><br>
+                            <ul class="shows_list">
+
+                                <!-- Show -->
+                                <li class="d-flex flex-row align-items-center justify-content-start">
+                                    <div class="ml-auto"><div class="show_shop trans_200"><a href="~/Users/UserProfile"><p class="smalllinks">+100 </p> Posts</a></div></div>
+                                    <div class="ml-auto"><div class="show_shop trans_200"><a href="~/Users/Likes"><p class="smalllinks">20 </p>Liks</a></div></div>
+                                    <div class="ml-auto"><div class="show_shop trans_200"><a href="~/Users/Friends"><p class="smalllinks">@ViewBag.fNum </p>Frinds</a></div></div>
+                                </li>
+                            </ul>
+                            <!-- Shows location -->
+
+                            <div class="extra_button"><a href="~/#" id="myBtnc"> E D I T </a></div>
+
+
+                            <div class="extra_button" hidden><a href="~/#"> Add Friend </a></div>
+                        </div>
+                    </div>
+
+                    <!-- Shows Image -->
+                    <div class="col-lg-4 order-lg-2 order-1">
+                        <div class="shows_image">
+                            <div class="image_overlay"></div>
+                            <img src=@Url.Action("MyAction", "Users", new { path = @Model.Photo }) id="ShowImage" class="ProductImage" alt="Alternate Text" />
+                            @using (Html.BeginForm("CreateImg", "Users", FormMethod.Post, new { enctype = "multipart/form-data" }))
+                            {
+                                @Html.AntiForgeryToken()
+                                <input type="file" name="FilePhoto" style="border:1px solid black;border-radius:5px;color:white" id="FilePhoto" required />
+                                <p id="Error"></p>
+                                <input type="submit" value="Confirm" class="extra_button" id="submit" name="submit" />
+                            }
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- Extra -->
+
+        <div class="discs">
+            <div class="container">
+                <div class="line"></div><br><br>
+
+                <!-- no Posts-->
+
+                <div class="home" hidden>
+                    <div class="home_slider_container">
+                        <!-- Home Slider -->
+                        <div class="owl-carousel owl-theme home_slider">
+
+                            <!-- Slide -->
+                            <div class="owl-item">
+                                <div class="background_image imgslide"></div>
+                                <div class="home_container">
+                                    <div class="home_container_inner d-flex flex-column align-items-center justify-content-center">
+                                        <div class="home_content text-center">
+                                            <div class="home_subtitle">No Elements Yet! Start Posts</div>
+                                            <div class="home_title"><h1>Love is all around</h1></div>
+                                            <div class="home_link"><a href="~/#">Listen on Soundcloud</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Posts -->
+                <div class="row discs_row">
+                    <!-- Disc -->
+                    <div class="col-xl-4 col-md-6">
+                        <div class="disc">
+                            <a href="~/single.html">
+                                <div class="disc_image"><img src="~/images/disc_4.jpg" alt="https://unsplash.com/&#64rexcuando"></div>
+                                <div class="disc_container">
+                                    <div>
+                                        <div class="disc_content_4 d-flex flex-column align-items-start justify-content-end">
+                                            <div class="text-left">
+                                                <div class="disc_subtitle">#Song_name</div>
+                                                <div class="disc_title">#Song_type</div>
+                                                <br><br><br><br><br><br><br><br><br>
+
+                                                <div class="disc_title">  <i class="fa fa-map-marker">  </i> location</div>
+                                                <div class="disc_title"><i class="fa fa-share-alt">  </i> shared_With</div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- dialog-->
+        <!-- Trigger/Open The Modal comments music -->
+        <!-- The Modal -->
+        <div id="myModalc" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="close" id="closec">&times;</span>
+                </div>
+                <div class="modal-body">
+                    <div class="contact_form_container">
+                        <div class="contact_title">E D I T</div>
+                        <form action="#" class="contact_form" id="contact_form">
+                            <input type="text" class="contact_input" placeholder="First Name" required="required">
+                            <input type="email" class="contact_input" placeholder="Last Name">
+                            <input type="date" class="contact_input">
+                            <input type="text" class="contact_input" placeholder="Location" disabled>
+                            <div class="btn-sx text-center">
+                                <button class="contact_button" id="closecu"> U P D A T </button><br>
+
+                            </div>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+
+        <footer class="footer">
+            <div class="footer_list">
+                <ul>
+                    <li><a href="~/about.html">About</a></li>
+                    <li><a href="~/setting1.html">Setting</a></li>
+                    <li><a href="~/ContactUs.html">Contact Us</a></li>
+
+                </ul>
+            </div>
+            <div class="copyright_bar">
+
+                <span>
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    Copyright &copy;
+                    <script>document.write(new Date().getFullYear());</script> All rights reserved |  <i class="fa fa-heart-o" aria-hidden="true"></i> by RemusiX team
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                </span>
+            </div>
+        </footer>
+    </div>
+
+    <script src="~/js/dialogp.js"></script>
+    <script src="~/js/jquery-3.2.1.min.js"></script>
+    <script src="~/styles/bootstrap-4.1.2/popper.js"></script>
+    <script src="~/styles/bootstrap-4.1.2/bootstrap.min.js"></script>
+    <script src="~/plugins/greensock/TweenMax.min.js"></script>
+    <script src="~/plugins/greensock/TimelineMax.min.js"></script>
+    <script src="~/plugins/scrollmagic/ScrollMagic.min.js"></script>
+    <script src="~/plugins/greensock/animation.gsap.min.js"></script>
+    <script src="~/plugins/greensock/ScrollToPlugin.min.js"></script>
+    <script src="~/plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+    <script src="~/plugins/easing/easing.js"></script>
+    <script src="~/plugins/progressbar/progressbar.min.js"></script>
+    <script src="~/plugins/parallax-js-master/parallax.min.js"></script>
+    <script src="~/plugins/jPlayer/jquery.jplayer.min.js"></script>
+    <script src="~/plugins/jPlayer/jplayer.playlist.min.js"></script>
+    <script src="~/js/custom.js"></script>
+
+    <script>
+        function showImage(src, target) {
+            var fr = new FileReader();
+            fr.onload = function () {
+                target.src = fr.result; //<img src="~/H://file1.jpg" />
+            }
+            fr.readAsDataURL(src.files[0]);
+        }
+        function putImage() {
+            if (!document.getElementById("FilePhoto").files[0].type.match('image.*')) {
+                document.getElementById("ShowImage").style["display"] = "none";
+                document.getElementById("Error").innerHTML = "Please Select Image File";
+                document.getElementById("FilePhoto").value = "";
+            }
+            else {
+                document.getElementById("Error").innerHTML = "";
+                var src = document.getElementById("FilePhoto");
+                var target = document.getElementById("ShowImage");
+                target.style["display"] = "block";
+                showImage(src, target);
+            }
+        }
+        document.getElementById('FilePhoto').addEventListener('change', putImage, false);
+
+        $(function () {
+            document.getElementById("FilePhoto").style["display"] = "none";
+            document.getElementById("submit").style["display"] = "none";
+            $("#ShowImage").click(function () {
+                document.getElementById("FilePhoto").style["display"] = "block";
+                document.getElementById("submit").style["display"] = "block";
+            });
+        });
+
+    </script>
+
+
+    <style>
+        .ProductImage {
+            height: 500px;
+            /*border: 1px solid #000;
+            -moz-border-radius: 10px;
+            -webkit-border-radius: 10px;
+            border-radius: 10px;*/
+        }
+    </style>
+</body>
+</html>

@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="RemusixDBModelStoreContainer" CdmEntityContainer="RemusixDBEntities">
+    <EntitySetMapping Name="Albums">
+      <EntityTypeMapping TypeName="RemusixDBModel.Album">
+        <MappingFragment StoreEntitySet="Albums">
+          <ScalarProperty Name="AlbumID" ColumnName="AlbumID" />
+          <ScalarProperty Name="AlbumName" ColumnName="AlbumName" />
+          <ScalarProperty Name="YearOfProduction" ColumnName="YearOfProduction" />
+          <ScalarProperty Name="Plays" ColumnName="Plays" />
+          <ScalarProperty Name="Rating" ColumnName="Rating" />
+          <ScalarProperty Name="AlbumDescription" ColumnName="AlbumDescription" />
+          <ScalarProperty Name="ArtistID" ColumnName="ArtistID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Artists">
+      <EntityTypeMapping TypeName="RemusixDBModel.Artist">
+        <MappingFragment StoreEntitySet="Artists">
+          <ScalarProperty Name="ArtistID" ColumnName="ArtistID" />
+          <ScalarProperty Name="ArtistName" ColumnName="ArtistName" />
+          <ScalarProperty Name="ArtistBirthDate" ColumnName="ArtistBirthDate" />
+          <ScalarProperty Name="ArtistRating" ColumnName="ArtistRating" />
+          <ScalarProperty Name="ArtistPhoto" ColumnName="ArtistPhoto" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Friends">
+      <EntityTypeMapping TypeName="RemusixDBModel.Friend">
+        <MappingFragment StoreEntitySet="Friends">
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="FriendID" ColumnName="FriendID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Genres">
+      <EntityTypeMapping TypeName="RemusixDBModel.Genre">
+        <MappingFragment StoreEntitySet="Genres">
+          <ScalarProperty Name="GenreID" ColumnName="GenreID" />
+          <ScalarProperty Name="GenreName" ColumnName="GenreName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Posts">
+      <EntityTypeMapping TypeName="RemusixDBModel.Post">
+        <MappingFragment StoreEntitySet="Posts">
+          <ScalarProperty Name="PostID" ColumnName="PostID" />
+          <ScalarProperty Name="PostContent" ColumnName="PostContent" />
+          <ScalarProperty Name="PostTime" ColumnName="PostTime" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Songs">
+      <EntityTypeMapping TypeName="RemusixDBModel.Song">
+        <MappingFragment StoreEntitySet="Songs">
+          <ScalarProperty Name="SongID" ColumnName="SongID" />
+          <ScalarProperty Name="SongName" ColumnName="SongName" />
+          <ScalarProperty Name="YearOfProduction" ColumnName="YearOfProduction" />
+          <ScalarProperty Name="GenreID" ColumnName="GenreID" />
+          <ScalarProperty Name="Plays" ColumnName="Plays" />
+          <ScalarProperty Name="Rating" ColumnName="Rating" />
+          <ScalarProperty Name="SongDescription" ColumnName="SongDescription" />
+          <ScalarProperty Name="AlbumID" ColumnName="AlbumID" />
+          <ScalarProperty Name="ArtistID" ColumnName="ArtistID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserFollowArtists">
+      <EntityTypeMapping TypeName="RemusixDBModel.UserFollowArtist">
+        <MappingFragment StoreEntitySet="UserFollowArtists">
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="ArtistID" ColumnName="ArtistID" />
+          <ScalarProperty Name="empty" ColumnName="empty" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserLikePosts">
+      <EntityTypeMapping TypeName="RemusixDBModel.UserLikePost">
+        <MappingFragment StoreEntitySet="UserLikePosts">
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="PostID" ColumnName="PostID" />
+          <ScalarProperty Name="Comment" ColumnName="Comment" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserListenSongs">
+      <EntityTypeMapping TypeName="RemusixDBModel.UserListenSong">
+        <MappingFragment StoreEntitySet="UserListenSongs">
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="SongID" ColumnName="SongID" />
+          <ScalarProperty Name="ListenTime" ColumnName="ListenTime" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Users">
+      <EntityTypeMapping TypeName="RemusixDBModel.User">
+        <MappingFragment StoreEntitySet="Users">
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="UserPassword" ColumnName="UserPassword" />
+          <ScalarProperty Name="Photo" ColumnName="Photo" />
+          <ScalarProperty Name="Background" ColumnName="Background" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="FacebookUsername" ColumnName="FacebookUsername" />
+          <ScalarProperty Name="GoogleUsername" ColumnName="GoogleUsername" />
+          <ScalarProperty Name="SoundcloudUsername" ColumnName="SoundcloudUsername" />
+          <ScalarProperty Name="Birthdate" ColumnName="Birthdate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
